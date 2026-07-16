@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class MyClass {
+  public static void main(String args[]) {
+      // idhar sabsai pahelai input lene ke liys code likeha sur fir hamnai ek variable banaya 
+      // jo ki undono ka sum hai aur print hamnai us variable ko kia 
+    
+    Scanner sc = new Scanner(System.in);
+    System.out.println(" enter the first number ");
+    int a = sc.nextInt();
+    System.out.println( "enter the second number ");
+    int b = sc.nextInt();
+    int z = a+b;
+    
+ System.out.println("the addition of this number = "+ z);
+  }
+}
