@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class MyClass {
+    public static int circumference(int r){
+        int circumference =2*7*r ;
+        return circumference;
+        
+    }
+    
+  public static void main(String args[]) {
+      Scanner sc = new Scanner(System.in);
+      int r = sc.nextInt();
+      int circumference = circumference(r);
+      System.out.println("the circumference is"+circumference);
+      
+    
+  }
+}
