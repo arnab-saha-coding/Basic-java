@@ -1,0 +1,31 @@
+public class VowelCounter {
+
+    // Function to count vowels in a String
+    public static int countVowels(String text) {
+        int count = 0;
+        
+        // Convert string to lowercase so we don't have to check 'A', 'E', etc. separately
+        text = text.toLowerCase();
+
+        // Loop through each character of the string
+        for (int i = 0; i < text.length(); i++) {
+            char ch = text.charAt(i);
+
+            // Check if the current character is a vowel
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                count++;
+            }
+        }
+
+        return count; // Return the total count
+    }
+
+    public static void main(String[] args) {
+        String testString = "Java Programming";
+        
+        // Calling the function and storing the return value
+        int totalVowels = countVowels(testString);
+
+        System.out.println("Number of vowels in \"" + testString + "\": " + totalVowels);
+    }
+}
