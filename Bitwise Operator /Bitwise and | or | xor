@@ -1,0 +1,17 @@
+import java.util.*;
+
+
+class publiclass
+{
+    public static void main(String[] args) throws java.lang.Exception
+    {
+        int z = 5;
+        int x = 6;
+        
+        System.out.println(x&z);
+        
+        System.out.println(x|z);
+        
+        System.out.println(x^z);
+    }
+}
