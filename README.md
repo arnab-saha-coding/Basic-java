@@ -1,31 +1,29 @@
-# 🚀 Java & Data Structures Roadmap
+# ☕ Java Core Fundamentals
 
-Welcome to my central repository tracking my continuous journey in learning Java fundamentals, data structures, and algorithmic problem-solving.
+Welcome to my central repository dedicated to mastering core Java programming, syntax, and foundational problem-solving logic.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 - **Language:** Java (JDK 17+)
 - **IDE:** VS Code / IntelliJ IDEA
-- **Practice Platform:** LeetCode
+  
 
 ---
 
 ## 📚 Topics & Repository Structure
+| Folder Name | Key Concepts & Logic Learned |
+| :--- | :--- |
+| `taking-inputs` | Primitive data types, Scanner class, basic user interaction |
+| `saving-variables` | Primitive types, variable scope, arithmetic operations |
+| `loops-practise` | For loops, while loops, control flow, iteration logic |
+| `function-practise` | Modular code, method signatures, parameters, return types |
+| `string-builders` | In-place string mutation, index math, two-pointer reversal |
+| `bitwise-operator` | Bitwise AND, OR, XOR, Left Shift (`<<`), Right Shift (`>>`) |
+| `encapsulation` | Access modifiers, `private` fields, getters and setters |
+| `inheritance` | Superclasses, subclasses, method reusability via `extends` |
+| `polymorphism` | Method Overloading (compile-time) & Method Overriding (runtime) |
 
-| Folder Name | Topics / Key Concepts Covered | Status |
-| :--- | :--- | :---: |
-| `taking-inputs` | Scanner class, basic primitive types | ✅ Completed |
-| `saving-variables` | Primitive data types, scope, arithmetic | ✅ Completed |
-| `loops-practice` | For loops, while loops, nested loops | ✅ Completed |
-| `functions-practice` | Methods, parameter passing, return types | ✅ Completed |
-| `string-builders` | StringBuilder, index manipulation, string reversal | ✅ Completed |
-| `bitwise-operators` | AND, OR, XOR, Bit shifting operations | ✅ Completed |
-| `arrays` | Traversal, Two-Pointer technique, Array allocation | 🔄 In Progress |
-
----
-
-## 🎯 Semester 1 Goal
-- [x] Complete Java Core fundamentals
-- [x] Master basic string & bitwise manipulation
-- [ ] Solve **100 LeetCode Problems** focused on Arrays, Binary Search, and Recursion
+## 🎯 Next Steps
+- Implement custom data structures in my dedicated **Data-Structures-and-Algorithms** repository.
+- Track algorithmic problem-solving on **LeetCode** across Arrays, Searching, and Recursion.
