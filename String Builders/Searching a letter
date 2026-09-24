@@ -1,0 +1,33 @@
+public class LetterSearch {
+    /**
+     * Searches for a character in a string using Linear Search.
+     * @return The index of the first occurrence, or -1 if not found.
+     */
+    public static int linearSearch(String str, char target) {
+        if (str == null || str.length() == 0) {
+            return -1;
+        }
+
+        // Iterate through each character in the string
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == target) {
+                return i; // Return the index as soon as it's found
+            }
+        }
+        
+        return -1; // Character not found
+    }
+
+    public static void main(String[] args) {
+        String text = "hello world";
+        char target = 'w';
+        
+        int result = linearSearch(text, target);
+        
+        if (result != -1) {
+            System.out.println("Character '" + target + "' found at index: " + result);
+        } else {
+            System.out.println("Character '" + target + "' not found.");
+        }
+    }
+}
